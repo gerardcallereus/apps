@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="ca">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Apps - Gerard Callé</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 20px;
+            background-color: #f4f4f4;
+            color: #333;
+        }
+        h1 {
+            text-align: center;
+            margin-bottom: 40px;
+        }
+        .grid {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            grid-template-rows: repeat(3, auto);
+            gap: 20px;
+            max-width: 1200px;
+            margin: 0 auto;
+        }
+        .card {
+            background: white;
+            border-radius: 8px;
+            box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+            padding: 20px;
+            text-align: center;
+            transition: transform 0.2s;
+        }
+        .card:hover {
+            transform: translateY(-5px);
+        }
+        .card img {
+            max-width: 100%;
+            height: 150px;
+            object-fit: cover;
+            border-radius: 4px;
+            margin-bottom: 15px;
+        }
+        .card h2 {
+            margin: 10px 0;
+            font-size: 1.5em;
+        }
+        .card p {
+            margin: 5px 0;
+            font-size: 0.9em;
+        }
+        .level-duration {
+            font-weight: bold;
+            color: #555;
+        }
+        .description {
+            font-size: 0.85em;
+            line-height: 1.4;
+            margin-top: 10px;
+        }
+        .empty {
+            background: #e9e9e9;
+            border: 2px dashed #ccc;
+        }
+    </style>
+</head>
+<body>
+    <h1>Les Meves Apps</h1>
+    <div class="grid">
+        <div class="card">
+            <img src="tentsandtrees.jpg" alt="Tents and Trees">
+            <h2>1.1 Tents and Trees</h2>
+            <p class="level-duration">Nivell: Inicial | Duració: 1-2 hores</p>
+            <p class="description">En aquesta activitat posareu a prova el vostre raonament lògic amb el joc Tents and Trees, on haureu de col·locar tendes de campanya al costat dels arbres en una graella seguint unes regles molt concretes. Per trobar la solució correcta, haureu de pensar de manera estratègica, eliminar opcions impossibles i comprovar les vostres hipòtesis.</p>
+        </div>
+        <div class="card">
+            <img src="gameoflive.gif" alt="El joc de la vida">
+            <h2>1.4 El joc de la vida</h2>
+            <p class="level-duration">Nivell: Inicial | Duració: 1-2 hores</p>
+            <p class="description">En aquesta activitat, us convertireu en biòlegs digitals per desxifrar l'evolució del Joc de la Vida. A partir d'un escenari inicial, la vostra missió serà predir el futur de la colònia de cèl·lules aplicant les lleis de la naturalesa artificial que regeixen aquest món. Per trobar la configuració de la següent generació, haureu d'analitzar cada casella amb precisió, observar l'entorn de cada cèl·lula i aplicar el rigor lògic per decidir si la vida hi prosperarà, es mantindrà o desapareixerà.</p>
+        </div>
+        <div class="card">
+            <img src="codiaventura.png" alt="Codi Aventura">
+            <h2>2.3 Codi Aventura</h2>
+            <p class="level-duration">Nivell: Mig | Duració: 2 hores</p>
+            <p class="description">CodiAventura és un videojoc educatiu de trencaclosques dissenyat per introduir el pensament computacional i la lògica de programació de manera visual i interactiva. Els jugadors han de guiar un robot fins a la meta mitjançant la construcció d'algoritmes, utilitzant comandes de moviment, bucles i condicionals per superar obstacles com murs, aigua i portes tancades.</p>
+        </div>
+        <div class="card empty"></div>
+        <div class="card empty"></div>
+        <div class="card empty"></div>
+        <div class="card empty"></div>
+        <div class="card empty"></div>
+        <div class="card empty"></div>
+    </div>
+</body>
+</html>
